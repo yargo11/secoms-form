@@ -1,11 +1,11 @@
 
 {
   "type":"mysql",
-  "host":"localhost",
+  "host":"dbhosting.tjrn.jus.br",
   "port":3306,
-  "username":"root",
-  "password":"strongestsecoms123!@password",
-  "database":"secoms-form",
+  "username":"c10dbuser",
+  "password":"rfmoAUsSS#R9",
+  "database":"c10db",
   "entities":[
     "./src/models/*.ts"
   ],

@@ -6,16 +6,19 @@ import {
   UpdateDateColumn,
 } from 'typeorm';
 
-@Entity('subscriptions')
-class Subscription {
+@Entity('users')
+class User {
   @PrimaryGeneratedColumn('uuid')
   id: string;
 
   @Column()
-  user: string;
+  name: string;
 
   @Column()
   email: string;
+
+  @Column()
+  password: string;
 
   @Column('timestamp')
   date: Date;
@@ -27,4 +30,4 @@ class Subscription {
   updated_at: Date;
 }
 
-export default Subscription;
+export default User;
